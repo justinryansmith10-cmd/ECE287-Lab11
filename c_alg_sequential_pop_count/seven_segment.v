@@ -1,0 +1,19 @@
+module seven_segment(
+	input wire[3:0]i,
+	output reg[6:0]o
+);
+
+// HEX out - rewire DE1
+//  ---0---
+// |       |
+// 5       1
+// |       |
+//  ---6---
+// |       |
+// 4       2
+// |       |
+//  ---3---
+
+
+
+endmodule
